@@ -9,27 +9,17 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: #121212;
       color: #E0E0E0;
-      margin: 0;
-      padding: 0;
+      margin: 0; padding: 0;
     }
     header {
       background: #0A84FF;
       padding: 1rem 2rem;
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.7);
-    }
-    header img {
-      width: 120px;
-      height: auto;
-      border-radius: 8px;
-    }
-    header h1 {
-      color: white;
+      text-align: center;
       font-size: 1.8rem;
-      margin: 0;
+      font-weight: bold;
       letter-spacing: 2px;
+      color: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.7);
     }
     nav {
       display: flex;
@@ -115,47 +105,28 @@
       font-size: 0.9rem;
       margin-top: 3rem;
     }
-    .instagram-embeds {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      justify-content: center;
-    }
-    .instagram-embeds blockquote {
-      width: 300px;
-      max-width: 100%;
-    }
     @media (max-width: 600px) {
       nav {
         flex-direction: column;
-      }
-      header {
-        flex-direction: column;
-        text-align: center;
-      }
-      .instagram-embeds {
-        flex-direction: column;
-        align-items: center;
       }
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="https://instagram.fplu1-1.fna.fbcdn.net/v/t51.2885-15/ceje_logo.jpg" alt="Logotipo CEJE Espaço Multidisciplinar" />
-    <h1>CEJE Espaço Multidisciplinar</h1>
+    CEJE Espaço Multidisciplinar
   </header>
   <nav>
     <a href="#sobre">Sobre</a>
     <a href="#servicos">Serviços</a>
     <a href="#inscricao">Inscrição</a>
     <a href="#contato">Contato</a>
-    <a href="#imagens">Imagens Instagram</a>
   </nav>
   <main>
     <section id="sobre">
       <h2>Sobre o CEJE</h2>
-      <p>O CEJE Espaço Multidisciplinar é um centro dedicado ao desenvolvimento integral do público infantil e geral, com equipe multidisciplinar pronta para atender com excelência e cuidado.</p>
+      <p>O CEJE Espaço Multidisciplinar é um centro dedicado ao desenvolvimento integral do público infantil e geral, com equipe formada por psicólogos, terapeutas, pedagogos e muito mais.</p>
+      <p>Com mais de 24 anos de experiência, oferecemos um ambiente seguro, moderno e acolhedor, promovendo saúde, educação e desenvolvimento com abordagem multidisciplinar.</p>
     </section>
     <section id="servicos">
       <h2>Serviços</h2>
@@ -191,21 +162,9 @@
       <p><strong>Endereço:</strong> Av. Ville Roy, 7806 - São Vicente</p>
       <p>Siga nosso Instagram: <a href="https://www.instagram.com/ceje.multidisciplinar/" target="_blank" style="color:#0A84FF;">@ceje.multidisciplinar</a></p>
     </section>
-    <section id="imagens">
-      <h2>Imagens mais curtidas do Instagram</h2>
-      <div class="instagram-embeds">
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DP3xFBBjrTw/" data-instgrm-version="14" style="max-width:540px; width:100%; margin: auto;">
-          <a href="https://www.instagram.com/p/DP3xFBBjrTw/" target="_blank">Ver postagem</a>
-        </blockquote>
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DGdRhSRu5wI/" data-instgrm-version="14" style="max-width:540px; width:100%; margin: auto;">
-          <a href="https://www.instagram.com/p/DGdRhSRu5wI/" target="_blank">Ver postagem</a>
-        </blockquote>
-      </div>
-    </section>
   </main>
   <footer>
     © 2025 CEJE Espaço Multidisciplinar - Todos os direitos reservados.
   </footer>
-  <script async src="//www.instagram.com/embed.js"></script>
 </body>
 </html>
