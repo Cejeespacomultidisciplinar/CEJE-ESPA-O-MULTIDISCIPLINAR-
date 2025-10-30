@@ -4,129 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>CEJE Espaço Multidisciplinar</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #121212;
-      color: #E0E0E0;
-      margin: 0; padding: 0;
-    }
-    header {
-      background: #0A84FF;
-      padding: 1rem 2rem;
-      text-align: center;
-      font-size: 1.8rem;
-      font-weight: bold;
-      letter-spacing: 2px;
-      color: white;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.7);
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      background: #1E1E1E;
-      padding: 0.8rem 0;
-    }
-    nav a {
-      text-decoration: none;
-      color: #0A84FF;
-      font-weight: 600;
-      transition: color 0.3s ease;
-    }
-    nav a:hover {
-      color: #40C4FF;
-    }
-    main {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-    section {
-      margin-bottom: 2.5rem;
-    }
-    h2 {
-      color: #0A84FF;
-      border-bottom: 2px solid #0A84FF;
-      padding-bottom: 0.5rem;
-      margin-bottom: 1rem;
-    }
-    p {
-      line-height: 1.6;
-      font-size: 1.1rem;
-    }
-    form {
-      background: #232323;
-      padding: 1.5rem;
-      border-radius: 8px;
-      box-shadow: 0 0 10px #0A84FF;
-      max-width: 500px;
-      margin: 0 auto;
-    }
-    label {
-      display: block;
-      margin-bottom: 0.3rem;
-      font-weight: 600;
-      color: #B0B0B0;
-    }
-    input, textarea {
-      width: 100%;
-      padding: 0.5rem;
-      margin-bottom: 1rem;
-      border: none;
-      border-radius: 4px;
-      font-size: 1rem;
-      background: #1A1A1A;
-      color: #E0E0E0;
-    }
-    input:focus, textarea:focus {
-      outline: 2px solid #0A84FF;
-    }
-    button {
-      background: #0A84FF;
-      border: none;
-      color: white;
-      padding: 0.7rem 1.5rem;
-      font-size: 1.1rem;
-      font-weight: 700;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-      width: 100%;
-    }
-    button:hover {
-      background: #005FCC;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem 0;
-      background: #1E1E1E;
-      color: #666;
-      font-size: 0.9rem;
-      margin-top: 3rem;
-    }
-    @media (max-width: 600px) {
-      nav {
-        flex-direction: column;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    CEJE Espaço Multidisciplinar
+    <img src="https://instagram.fplu1-1.fna.fbcdn.net/v/t51.2885-15/ceje_logo.jpg" alt="Logotipo CEJE Espaço Multidisciplinar" />
+    <h1>CEJE Espaço Multidisciplinar</h1>
   </header>
   <nav>
     <a href="#sobre">Sobre</a>
     <a href="#servicos">Serviços</a>
     <a href="#inscricao">Inscrição</a>
     <a href="#contato">Contato</a>
+    <a href="#imagens">Imagens Instagram</a>
   </nav>
   <main>
     <section id="sobre">
       <h2>Sobre o CEJE</h2>
-      <p>O CEJE Espaço Multidisciplinar é um centro dedicado ao desenvolvimento integral do público infantil e geral, com equipe formada por psicólogos, terapeutas, pedagogos e muito mais.</p>
-      <p>Com mais de 24 anos de experiência, oferecemos um ambiente seguro, moderno e acolhedor, promovendo saúde, educação e desenvolvimento com abordagem multidisciplinar.</p>
+      <p>O CEJE Espaço Multidisciplinar é um centro dedicado ao desenvolvimento integral do público infantil e geral, com equipe multidisciplinar pronta para atender com excelência e cuidado.</p>
     </section>
     <section id="servicos">
       <h2>Serviços</h2>
@@ -160,11 +55,23 @@
       <h2>Contato</h2>
       <p><strong>Telefone:</strong> (95) 99175-7983 / (95) 99115-3421</p>
       <p><strong>Endereço:</strong> Av. Ville Roy, 7806 - São Vicente</p>
-      <p>Siga nosso Instagram: <a href="https://www.instagram.com/ceje.multidisciplinar/" target="_blank" style="color:#0A84FF;">@ceje.multidisciplinar</a></p>
+      <p>Siga nosso Instagram: <a href="https://www.instagram.com/ceje.multidisciplinar/" target="_blank">@ceje.multidisciplinar</a></p>
+    </section>
+    <section id="imagens">
+      <h2>Imagens mais curtidas do Instagram</h2>
+      <div class="instagram-embeds">
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DP3xFBBjrTw/" data-instgrm-version="14" style="max-width:540px; width:100%; margin: auto;">
+          <a href="https://www.instagram.com/p/DP3xFBBjrTw/" target="_blank">Ver postagem</a>
+        </blockquote>
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DGdRhSRu5wI/" data-instgrm-version="14" style="max-width:540px; width:100%; margin: auto;">
+          <a href="https://www.instagram.com/p/DGdRhSRu5wI/" target="_blank">Ver postagem</a>
+        </blockquote>
+      </div>
     </section>
   </main>
   <footer>
     © 2025 CEJE Espaço Multidisciplinar - Todos os direitos reservados.
   </footer>
+  <script async src="//www.instagram.com/embed.js"></script>
 </body>
-</html>
+</html>7
