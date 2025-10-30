@@ -103,43 +103,109 @@
       cursor: pointer;
       transition: background-color 0.3s ease;
       width: 100%;
-    } CEJE Espaço Multidisciplinar
-
-![CEJE Logo](https://instagram.com/ceje.multidisciplinar/logo.jpg)  
-
-## Descrição  
-O CEJE Espaço Multidisciplinar oferece atendimento integral para crianças e famílias com equipe especializada em psicologia, terapias e educação. Promove saúde, desenvolvimento e apoio socioemocional em ambiente seguro e acolhedor.
-
-## Demo do Site  
-Veja a página principal do projeto [clicando aqui](https://seulink.github.io/ceje-espaco-multidisciplinar).  
-
-![Exemplo 1](https://instagram.com/p/DP3xFBBjrTw/media/?size=l)  
-![Exemplo 2](https://instagram.com/p/DGdRhSRu5wI/media/?size=l)  
-*Imagens reais das atividades do CEJE retiradas do perfil oficial do Instagram.*
-
-## Estrutura do Projeto  
-- `index.html`: página principal  
-- `styles.css`: estilização  
-- `README.md`: documentação (este arquivo)  
-
-## Como Hospedar  
-Use plataformas gratuitas para sites estáticos:  
-- [GitHub Pages](https://pages.github.com/)  
-- [Netlify](https://www.netlify.com/)  
-- [Vercel](https://vercel.com/)  
-
-Basta enviar o conteúdo para o serviço escolhido.
-
-## Como Contribuir  
-1. Faça um fork deste repositório;  
-2. Crie uma branch para suas modificações;  
-3. Envie um pull request detalhando suas mudanças.  
-
-## Contato  
-Telefone: (95) 99175-7983 / (95) 99115-3421  
-Endereço: Av. Ville Roy, 7806, São Vicente  
-Instagram: [@ceje.multidisciplinar](https://www.instagram.com/ceje.multidisciplinar/)
-
----
-
-Este projeto visa facilitar o acesso às informações do CEJE com transparência e acolhimento ao público.
+    }
+    button:hover {
+      background: #005FCC;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background: #1E1E1E;
+      color: #666;
+      font-size: 0.9rem;
+      margin-top: 3rem;
+    }
+    .instagram-embeds {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .instagram-embeds blockquote {
+      width: 300px;
+      max-width: 100%;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      .instagram-embeds {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://instagram.fplu1-1.fna.fbcdn.net/v/t51.2885-15/ceje_logo.jpg" alt="Logotipo CEJE Espaço Multidisciplinar" />
+    <h1>CEJE Espaço Multidisciplinar</h1>
+  </header>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#inscricao">Inscrição</a>
+    <a href="#contato">Contato</a>
+    <a href="#imagens">Imagens Instagram</a>
+  </nav>
+  <main>
+    <section id="sobre">
+      <h2>Sobre o CEJE</h2>
+      <p>O CEJE Espaço Multidisciplinar é um centro dedicado ao desenvolvimento integral do público infantil e geral, com equipe multidisciplinar pronta para atender com excelência e cuidado.</p>
+    </section>
+    <section id="servicos">
+      <h2>Serviços</h2>
+      <ul>
+        <li>Atendimento psicológico e terapêutico</li>
+        <li>Atividades educativas e recreativas</li>
+        <li>Fonoaudiologia e fisioterapia</li>
+        <li>Projetos socioemocionais e apoio escolar</li>
+      </ul>
+    </section>
+    <section id="inscricao">
+      <h2>Inscrição</h2>
+      <p>Para realizar sua inscrição, preencha o formulário abaixo com seus dados para entrarmos em contato e agendar uma visita.</p>
+      <form>
+        <label for="nome">Nome Completo</label>
+        <input type="text" id="nome" name="nome" required />
+        
+        <label for="telefone">Telefone / WhatsApp</label>
+        <input type="tel" id="telefone" name="telefone" required />
+        
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required />
+        
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+        
+        <button type="submit">Enviar Inscrição</button>
+      </form>
+    </section>
+    <section id="contato">
+      <h2>Contato</h2>
+      <p><strong>Telefone:</strong> (95) 99175-7983 / (95) 99115-3421</p>
+      <p><strong>Endereço:</strong> Av. Ville Roy, 7806 - São Vicente</p>
+      <p>Siga nosso Instagram: <a href="https://www.instagram.com/ceje.multidisciplinar/" target="_blank" style="color:#0A84FF;">@ceje.multidisciplinar</a></p>
+    </section>
+    <section id="imagens">
+      <h2>Imagens mais curtidas do Instagram</h2>
+      <div class="instagram-embeds">
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DP3xFBBjrTw/" data-instgrm-version="14" style="max-width:540px; width:100%; margin: auto;">
+          <a href="https://www.instagram.com/p/DP3xFBBjrTw/" target="_blank">Ver postagem</a>
+        </blockquote>
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DGdRhSRu5wI/" data-instgrm-version="14" style="max-width:540px; width:100%; margin: auto;">
+          <a href="https://www.instagram.com/p/DGdRhSRu5wI/" target="_blank">Ver postagem</a>
+        </blockquote>
+      </div>
+    </section>
+  </main>
+  <footer>
+    © 2025 CEJE Espaço Multidisciplinar - Todos os direitos reservados.
+  </footer>
+  <script async src="//www.instagram.com/embed.js"></script>
+</body>
+</html>
